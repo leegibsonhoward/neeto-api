@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"],
+      "types": ["jest", "node"],
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",
+      "rootDir": "./src"
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/types/**/*.d.ts"
+    ],
+    "exclude": ["node_modules"]
+  }
+  
